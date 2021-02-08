@@ -1,4 +1,6 @@
-### I'm ANKER Gift Me Stars 🌟 
+✅M A I N T E N A N C E✅
+
+### I'm last
 
 ## Tools
 
@@ -182,8 +184,6 @@ Follow The Steps Below!
 
 * Dont Forget Stars
 
-* |En| And You can add your own quotes
-* |Ind| Dan Kalian Bisa tambahkan Quotes Kalian
 
 
 ## Special Thanks
