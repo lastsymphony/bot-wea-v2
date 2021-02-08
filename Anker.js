@@ -68,14 +68,14 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:ANKER\n'
-            + 'ORG:Owner DARK BOT;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n'
+            + 'ORG:Owner SYMPHONY BOT;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6289670394574:+62 896-7039-4574\n'
             + 'END:VCARD'
 
 prefix = "!"
-name = "~ D A R K | B O T"
-rdaftar = "TERIMA KASIH TELAH DAFTAR MENJADI TEMEN DARKBOT😁"
-rmenu = "HAI TEMEN DARKBOT👋 JANGAN LUPA DONASI YAA:)"
+name = "~ S Y M P H O N Y | B O T"
+rdaftar = "TERIMA KASIH TELAH DAFTAR MENJADI TEMEN SYMPHONYBOT😁"
+rmenu = "HAI TEMEN SYMPHONYBOT👋 JANGAN LUPA DONASI YAA:)"
 limitt = 10
 ban = []
 
@@ -159,7 +159,7 @@ async function starts() {
 			const content = JSON.stringify(mek.message)
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
-			const FarhanGans = ["081368646011@s.whatsapp.net"] // ubah aja gapapa
+			const FarhanGans = ["6289670394574@s.whatsapp.net"] //
 			const farhan = mek.message.conversation
 			const insom = from.endsWith('@g.us')
 			const nameReq = insom ? mek.participant : mek.key.remoteJid
@@ -200,7 +200,7 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6281368646011@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["6289670394574@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -959,7 +959,7 @@ async function starts() {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('628311800241@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6289670394574@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
                 case 'request':
@@ -974,7 +974,7 @@ async function starts() {
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('628311800241@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6289670394574@s.whatsapp.net', options, text, {quoted: mek})
                     reply('REQUEST ANDA TELAH SAMPAI ke owner BOT, Requests palsu/main2 tidak akan ditanggapi.')
                     break
 				case 'memeindo':
